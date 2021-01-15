@@ -1,0 +1,32 @@
+.title {
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.btn {
+  position: relative;
+  padding: 15px 20px;
+  margin: 10px 0 0;
+  transition: all 0.1s linear;
+  cursor: pointer;
+  top: 0;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: #f39f47;
+  box-shadow: 0 8px 0 0 #925819, 0 8px 0 1px rgba(0, 0, 0, 0.2),
+    0 8px 8px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none !important;
+  color: var(--background-body);
+}
+
+.btn:active {
+  top: 9px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
